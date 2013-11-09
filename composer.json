@@ -9,7 +9,9 @@
             "email":"sasezaki@gmail.com"
         }
     ],
-    "require-dev":{
-        "zendframework/zend-http": "2.2.*"
+    "autoload": {
+        "classmap": [
+            "./Module.php"
+        ]
     }
 }
