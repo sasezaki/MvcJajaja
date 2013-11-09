@@ -1,0 +1,15 @@
+{
+    "name":"sasezaki/mvc-jajaja",
+    "description":"ZF2 Mvcアプリケーションにてヴァリデーションを日本語にします",
+    "keywords":["japanese", "validate", "validator", "zf2", "translations"],
+    "license":"BSD-3-Clause",
+    "authors":[
+        {
+            "name":"sasezaki",
+            "email":"sasezaki@gmail.com"
+        }
+    ],
+    "require-dev":{
+        "zendframework/zend-http": "2.2.*"
+    }
+}
