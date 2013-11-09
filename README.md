@@ -32,6 +32,10 @@ return array(
     }
 ```
 
+##ロケールの考慮
+このモジュールは強制的にメッセージを日本語にするものですので、
+ロケールを考慮して英語/日本語の変更を行う場合はSlmLocaleなどを使って下さい
+https://github.com/juriansluiman/SlmLocale
 
 ##Mvcアプリケーション以外での日本語使用手引き
 http://qiita.com/sasezakit/items/1a998f6c673739bbdee3
