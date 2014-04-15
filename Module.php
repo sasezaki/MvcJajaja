@@ -11,6 +11,7 @@ class Module
 
         $sm = $e->getApplication()->getServiceManager();
         $translator = $sm->get('MvcTranslator');
+        $translator->setLocale('ja_JP');
         $translator->addTranslationFile('phparray', $file, 'default', 'ja_JP');
     }
 }
