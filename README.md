@@ -19,6 +19,16 @@ return array(
     );
 ```
 
+config/autoload/global.php にてこのロケールを有効にします
+
+```php
+<?php
+return array(
+    'translator' => array(
+        'locale' => 'ja_JP'
+    ),
+```
+
 ##動作確認
 コントローラからは以下の通りです
 
